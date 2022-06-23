@@ -1,0 +1,183 @@
+
+
+<html>
+	<head>
+
+		<!--Title of the web page-->
+		<title> Iraku Harry </title>
+
+		<!--charset sets the encoding style-->
+		<!--name values author, keywords & description set the web page developer's name and facilitate discovery of the webpage by search engines-->
+		<!--name value viewport provides portability of the web page on all devices-->
+		<meta charset="utf-8"/>
+		<meta name="author" content="Iraku Harry"/>
+		<meta name="keywords" content="Iraku Harry, Bio, Contact, Resume"/>
+		<meta name="description" content="A brief biography of Makerere University Software Engineering Student, Iraku Harry"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/> 
+		<meta name="revised" content="June 22, 2022"/>
+	</head>
+
+	<!--Setting the background color theme of the web page-->
+	<body bgcolor="#dcdcdc">
+
+
+		<!--Creating a general layout for the web page using the table element tags-->
+		<table cellpadding="10" cellspacing="0">
+
+		<!--Setting the base font for the elements in the body of the web page-->
+		<font face="Verdana, Sans-serif" color=#400080 size="2">
+
+			<!--This row is for the header section-->
+			<tr>
+				<!--Setting the web page main heading to a preformatted text-->
+				<td> <pre> <h1><a href="harry.html"> Iraku Harry </a></h1> </pre>
+				</td>
+		 		<!--Adding an image banner to the top of the web page-->
+				<td colspan="2"> <img src="images/compile.jpg" width="100%" height="22%" alt="banner"> </td>
+				<td align="right"> 
+					<!--Adding a search box and an image button to the top right corner of the web page-->
+					<form> 
+					<input type="search" method="get" action="harry.html" size="20">
+					<button> <img src="images/search.png" width="15" height="15" alt="Search"> </button>
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<!--Adding left side pane-->
+				<td rowspan="3" valign="top" width="300" background="images/pane.jpg">
+					<!--Adding a navigation list for the website at the top left side of the landing page-->
+					<ul font = "white">
+					<li> <a href="harry.html"> Home </a> </li>
+					<li> <a href="hobbies.html" target="_blank"> Hobbies & Interests </a> </li>
+					<li> <a href="#form"> Contact </a> </li>
+					<li> <a href="#iframe"> Page Info </a> </li>
+					</ul>
+				</td>
+				<td width="500">
+					<!--Adding a heading, paragraph and text content-->
+					<h2> Hi, I Am Harry. </h2>
+					<p> I was born and raised in the Pearl of Africa - Uganda. I largely enjoy
+						 anything to do with science and technology. I am mainly learning software engineering and 
+						computer programming and enrolled at the School of Computing and Information Technology,
+						 Makerere University, Kampala. My favorite programming language is Python, in which I am 
+						moderately skilled. I am also interested in Java, C and C++. I am currently learning HTML5,
+						 CSS and JavaScript.
+
+					</p>
+
+					<!--Adding table of summary-->
+					<table border="2" frame="above">
+						<caption> Summary of Bio </caption>
+						<thead  width="125">
+							<td>Key</td>
+							<td>Value</td>
+							<td> Notes </td>
+						</thead>
+						<tbody align="left">
+						<tr>
+							<td> Full Name </td>
+							<td> Iraku Harry </td>
+							<td> aka. Bravo </td>
+						</tr>
+						<tr>
+							<td> Registration No. </td>
+							<td> 21/U/07731/EVE </td>
+							<td> Student Number <br> 2100707731 </td>
+						</tr>
+						<tr>
+							<td> Programmes </td>
+							<td>
+								<ol >
+									<li> PLE Certificate </li>
+									<li> UCE Certificate </li>
+									<li> UACE Certificate </li>
+									<li> Computer Repair & Maintenance Certificate </li>
+									<li> BSc. Software Engineering </li>
+								</ol>
+							</td>
+							<td>
+								<!--Adding an unordered list with the bullet styling removed-->
+								<ul type="none" align="left">
+									<li> Arua Hill </li>
+									<li> SMASK </li>
+									<li> SMASK </li>
+									<li> Hardware & Software </li>
+									<li> Freshman </li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<td> Skills </td>
+							<td>
+								<ol>
+									<li> C Programming </li>
+									<li> C++ Programming </li>
+									<li> Java Programming </li>
+									<li> Python Programming </li>
+									<li> HTML5, CSS & JavaScript </li>
+									<li> Computer Repair & Maintenance </li>
+								</ol>
+							</td>
+							<td>
+								<!--Adding an unordered list with the bullet styling removed-->
+								<ul type="none">
+									<li> Advanced </li>
+									<li> Moderate </li>
+									<li> Moderate </li>
+									<li> Moderate </li>
+									<li> Beginner </li>
+									<li> Advanced </li>
+								</ul>
+							</td>
+						</tr>
+						</tbody>
+						<tfoot>
+							<td colspan="3"> <a href="https://www.twitter.com/iraqooh" id="twitter"> Twitter: @iraqooh </a> </td>
+						</tfoot>
+					</table>
+				</td>
+
+				<!--Adding author image to the right side of the main page section-->
+				<td valign="top"> <img src="images/hiraku2.png" alt="Iraku Harry in 2018" width="300">
+				</td>
+				<!--Adding right side pane-->
+				<td rowspan="3" width="300" background="images/pane.jpg">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+				<form id="form" method="post" action="mailto:iraqooh@gmail.com?Subject=Inquiry" enctype="text/plain">
+				<fieldset>
+				<legend> Contact Form </legend>
+				<label for="name"> Name </label> <input type="text" method="get" id="name" size="25" placeholder="Optional">
+				<label for="mail"> Email </label> <input type="email" method="get" id="mail" placeholder="for_example@gmail.com" required>
+				<br><hr>
+				<label for="message"> Message </label> 
+				<br><textarea cols="104" rows="5"> </textarea>
+				<br><input type="submit" value="Submit">
+				<input type="reset" value="Clear">
+				</fieldset>
+				</form>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+				<iframe src="https://docs.google.com/document/d/1a3MTerYNGMpKKV_Mhb7aEVLN-YMyW_Wd/edit?usp=sharing&ouid=108543425255241612684&rtpof=true&sd=true" id="iframe" width="100%" height="400" border="3">
+					
+				</iframe>
+				<div align="right">
+				<button type="button"> <a href="documentation of irakuharry.me website.docx" download> Download </a>
+				</button>
+				</div>
+				</td>
+			</tr>
+			<!--This row is for the footer section of this page-->
+			<tr>
+				<td colspan="3" height="100">
+				<p align="center"> &copy; Iraku Harry, <a href="https://www.mak.ac.ug"> Makerere University </a> </p>
+				</td>
+			</tr>
+		</font>
+		</table>
+	</body>
+</html>
