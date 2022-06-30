@@ -9,9 +9,9 @@ body {
   background-color: grey;
   display: grid;
   grid-template-areas:
-    "nav head head head"
-    "sect sect sect sect"
-    "foot foot foot foot";
+    "nav head head head head"
+    "sect sect sect sect sect"
+    "foot foot foot foot foot";
 }
 
 .banner, .section, .footer {
@@ -48,6 +48,7 @@ body {
   grid-template-columns: auto auto;
   padding: 20px;
   height: auto;
+  font-size: 18px;
 }
 
 .images {
@@ -63,6 +64,10 @@ ul {
 
 p {
   font-family: sans-serif;
+}
+
+table, td {
+  border: 4px groove #66bfbf;
 }
 
 iframe {
