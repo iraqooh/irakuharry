@@ -1,0 +1,78 @@
+body {
+  margin: 10px 300px;
+  background-image: url("images/clouds.JPG");
+}
+
+.header {
+  background: #eaf6f6;
+  font-family: Ink Free, Arial, sans-serif;
+  font-weight: bolder;
+  color: #66bfbf;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.container {
+  width: 750px;
+  height: 405px;
+  position: relative;
+}
+
+.bio, .photo, .educ, .hobbies, .contact {
+  height: 135px;
+  width: 250px;
+  position: absolute;
+  border-style: ridge;
+  text-align: center;
+  color: #fff;
+}
+
+.photo, .contact {
+  right: 0;
+}
+
+.bio:hover, .photo:hover, .educ:hover, .hobbies:hover, .contact:hover {
+  color: lime;
+  background-color: black;
+  background-image: linear-gradient(to bottom, black, grey);
+}
+
+.bio {
+  background-color: lime;
+  background-image: linear-gradient(to right, lime, rgb(0,128,0));
+}
+
+.photo {
+  background-image: url("D:/BSSE/BSE 1207 Introduction to Web Development/WWW/images/hiraku.jpg");
+}
+
+.educ {
+  background-color: blue;
+  left: 400px;
+  top: 135px;
+  left: 250px;
+}
+
+.hobbies {
+  background-color: yellow;
+  background-image: linear-gradient(to right, yellow, rgb(128,128,0));
+  top: 270px;
+}
+
+.contact {
+  background-color: red;
+  background-image: linear-gradient(to left, red, rgb(128,0,0));
+  top: 270px;
+}
+
+h2 {
+  padding-top: 30px;
+  text-shadow: 10px;
+  font-weight: bolder;
+}
+
+#myphotos {
+  position: relative;
+  bottom: 80px;
+}

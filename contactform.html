@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+	<title>Contact Me</title>
+
+	<meta charset="utf-8"/>
+	<meta name="author" content="Iraku Harry"/>
+	<meta name="keywords" content="Iraku Harry, Bio, Contact, Resume"/>
+	<meta name="description" content="A brief biography of Makerere University Software Engineering Student, Iraku Harry"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" href="generic.css">
+	</head>
+
+	<body>
+
+	<!--This hyperlink text returns the visitor back to the home page-->
+	<div class="container">
+		<div class="navigation">
+			<ul>
+				<li> <a href="https://iraqooh.github.io/irakuharry/aboutme.html"> Home </a> </li>
+				<li> <a href="https://iraqooh.github.io/irakuharry/hobbies.html" target="_blank"> Hobbies </a> </li>
+				<li> <a href="https://iraqooh.github.io/irakuharry/contactform.html"> Contact </a> </li>
+				<li> <a href="https://iraqooh.github.io/irakuharry/documentation.html"> Documentation </a> </li>
+			</ul>
+		</div>
+		<div class="header">
+				<h1> Get In Touch </h1>
+		</div>
+		<div class="section">
+			<form id="form" method="post" action="mailto:iraqooh@gmail.com?Subject=Inquiry" enctype="text/plain">
+			<fieldset>
+			<legend> Contact Form </legend>
+			<label for="name"> Name </label> <input type="text" method="get" id="name" size="25" placeholder="Optional">
+			<label for="mail"> Email </label> <input type="email" method="get" id="mail" placeholder="for_example@gmail.com" required>
+			<br><hr>
+			<label for="message"> Message </label>
+			<br><textarea cols=100% rows="9" id="message"> </textarea>
+			<br><input type="submit" value="Submit" id="submit">
+			<input type="reset" value="Clear">
+			</fieldset>
+			</form>
+		</div>
+		<div class="footer">
+			<p> &copy; Iraku Harry, <a href="https://www.mak.ac.ug">Makerere University </a> </p>
+		</div>
+	</div>
+	</body>
+</html>
