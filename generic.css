@@ -66,8 +66,13 @@ p {
   font-family: sans-serif;
 }
 
-table, td {
+table, th, td {
   border: 4px groove #66bfbf;
+  text-align: center;
+}
+
+ol > li {
+  text-align: left;
 }
 
 iframe {
