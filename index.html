@@ -1,48 +1,61 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8"/>
-		<meta name="author" content="Iraku Harry"/>
-		<meta name="keywords" content="Iraku Harry, Bio, Contact, Resume"/>
-		<meta name="description" content="A brief biography of Makerere University Software Engineering Student, Iraku Harry"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<meta name="revised" content="June 22, 2022"/>
-    <title> Welcome </title>
-    <link rel="stylesheet" href="xcss.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
-    <div class="header">
-      <h1> Hello, Am Iraku Harry </h1>
-      <h2> Welcome to My Personal Website </h2>
-    </div>
-    <div class="container">
-      <a href="https://iraqooh.github.io/irakuharry/aboutme.html">
-      <div class="bio">
-        <h2>Biography</h2>
+    
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <div class="container">
+        <a href="https://iraqooh.github.io/irakuharry/" class="navbar-brand">Iraku Harry</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="https://iraqooh.github.io/irakuharry/aboutme.html" class="nav-link">Biography</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://iraqooh.github.io/irakuharry/education.html" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://iraqooh.github.io/irakuharry/hobbies.html" class="nav-link">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://github.com/iraqooh/" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://iraqooh.github.io/irakuharry/contactform.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </a>
-    <a href="https://iraqooh.github.io/irakuharry/hobbies.html">
-      <div class="photo">
-        <img src="images/hiraku2.png" alt="pie" width="130px">
-        <h2 id="myphotos">My Photos</h2>
+    </nav>
+
+    <!-- showcase -->
+    <section class="bg-secondary text-light p-5 text-center">
+      <div class="container d-sm-flex">
+        <div class="p-5">
+          <h1>Hi, I'm Harry</h1>
+          <p class="lead">
+            Sophomore student of Software Engineering at the School of Computing and
+            Information Technology, College of Computing and Information 
+            Sciences, Makerere University, Kampala, Uganda.
+          </p>
+        </div>
+        <div class="ms-auto">
+          <img class="img-fluid ms-auto" src="images/hiraku.JPG" alt="iraku_harry">
+        </div>
       </div>
-      </a>
-      <a href="https://iraqooh.github.io/irakuharry/education.html">
-      <div class="educ">
-        <h2>Education History</h2>
-      </div>
-      </a>
-      <a href="https://iraqooh.github.io/irakuharry/hobbies.html">
-      <div class="hobbies">
-        <h2>Hobbies</h2>
-      </div>
-      </a>
-      <a href="https://iraqooh.github.io/irakuharry/contactform.html">
-      <div class="contact">
-        <h2>Contact Me</h2>
-      </div>
-      </a>
-    </div>
+    </section>
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
