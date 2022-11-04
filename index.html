@@ -8,10 +8,10 @@
 		<meta name="revised" content="November 3, 2022"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Welcome</title>
-    <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   </head>
   <body>
-    
     <!-- Navigation bar -->
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
       <div class="container">
@@ -30,10 +30,10 @@
               <a href="https://iraqooh.github.io/irakuharry/education.html" class="nav-link">Education</a>
             </li>
             <li class="nav-item">
-              <a href="https://iraqooh.github.io/irakuharry/hobbies.html" class="nav-link">Gallery</a>
+              <a href="https://github.com/iraqooh/" class="nav-link">Projects</a>
             </li>
             <li class="nav-item">
-              <a href="https://github.com/iraqooh/" class="nav-link">Projects</a>
+              <a href="https://iraqooh.github.io/irakuharry/hobbies.html" class="nav-link">Gallery</a>
             </li>
             <li class="nav-item">
               <a href="https://iraqooh.github.io/irakuharry/contactform.html" class="nav-link">Contact</a>
@@ -55,11 +55,102 @@
           </p>
         </div>
         <div class="ms-auto">
-          <img class="img-fluid ms-auto" src="images/hiraku.JPG" alt="iraku_harry">
+          <img class="img-fluid ms-auto rounded" src="images/hiraku.JPG" alt="iraku_harry">
         </div>
       </div>
     </section>
 
-    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- project preview -->
+    <section class="p-5 bg-light">
+      <div class="container">
+        <h2 class="text-center">Projects Overview</h2>
+        <p class="lead text-center mb-5">
+          Summaries of some of the personal projects I am working on. Click on the card for more details.
+        </p>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-secondary">
+              <div class="card-body text-center text-light">
+                <img src="images/java.PNG" alt="java" class="img-thumbnail rounded-circle mb-3">
+                <h3 class="card-title mb-3">Java</h3>
+                <p class="card-text">
+                  <a href="#" class="text-decoration-none text-reset">Java custom package to implement common 
+                  software engineering principles such as propositional and 
+                  predicate logic, mathematics etc.</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-secondary">
+              <div class="card-body text-center text-light">
+                <img src="images/ai.JPG" alt="java" class="img-thumbnail rounded-circle mb-3">
+                <h3 class="card-title mb-3">Artificial Intelligence</h3>
+                <p class="card-text">
+                  <a href="#" class="text-decoration-none text-reset">Using machine learning
+                     and natural language processing to model a weak A.I. that generates source
+                      code from pseudocode.</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-secondary">
+              <div class="card-body text-center text-light">
+                <img src="images/languages.PNG" alt="java" class="img-thumbnail rounded-circle mb-3">
+                <h4 class="card-title mb-3">Programming Dictionary</h4>
+                <p class="card-text">
+                  <a href="#" class="text-decoration-none text-reset">A compilation of code snippets from 
+                    the most common programming languages from C to SQL, grouped by 
+                    usage.</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-secondary">
+              <div class="card-body text-center text-light">
+                <img src="images/calculator.PNG" alt="java" class="img-thumbnail rounded-circle mb-3">
+                <h3 class="card-title mb-3">Calculator</h3>
+                <p class="card-text">
+                  <a href="#" class="text-decoration-none text-reset">A universal calculator for 
+                    executing simple to complex mathematical equations.</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+      <div class="container">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="https://iraqooh.github.io/irakuharry/aboutme.html" class="nav-link px-2 text-muted">About Me</a></li>
+          <li class="nav-item"><a href="" class="nav-link px-2 text-muted">About</a></li>
+        </ul>
+        <div class="pb-2">
+            <a class="p-4 text-light" href="https://twitter.com/iraqooh"><i class="bi bi-twitter"></i></a></li>
+            <a class="p-4 text-light" href="https://facebook.com/iraqooh"><i class="bi bi-facebook"></i></a>
+            <a class="p-4 text-light" href="https://wa.me/256773792089"><i class="bi bi-whatsapp"></i></a>
+            <a class="p-4 text-light" href="https://instagram.com/iraqooh"><i class="bi bi-instagram"></i></a>
+            <a class="p-4 text-light" href="https://youtube.com/channel/UCbcroI_S7GE3-M-2PLt1huQ"><i class="bi bi-youtube"></i></a>
+            <a class="p-4 text-light" href="https://linkedin.com/in/iraqooh"><i class="bi bi-linkedin"></i></a>
+            <a class="p-4 text-light" href="mailto:iraqooh@gmail.com?subject=Enquiry"><i class="bi bi-google"></i></a>
+        </div>
+        <p class="lead">Copyright &copy; 2022 Iraku Harry</p>
+
+        <a href="" class="position-absolute bottom-0 end-0 p-2">
+          <i class="bi bi-arrow-up-circle h1 text-light"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
