@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/irakuharry/static/css/main.cfa0e3d3.css",
+    "main.js": "/irakuharry/static/js/main.ff7bf76d.js",
+    "static/js/453.ed4fec4f.chunk.js": "/irakuharry/static/js/453.ed4fec4f.chunk.js",
+    "static/media/clouds.png": "/irakuharry/static/media/clouds.47209d2daf1f3c8f5a3d.png",
+    "index.html": "/irakuharry/index.html",
+    "main.cfa0e3d3.css.map": "/irakuharry/static/css/main.cfa0e3d3.css.map",
+    "main.ff7bf76d.js.map": "/irakuharry/static/js/main.ff7bf76d.js.map",
+    "453.ed4fec4f.chunk.js.map": "/irakuharry/static/js/453.ed4fec4f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cfa0e3d3.css",
+    "static/js/main.ff7bf76d.js"
+  ]
+}
