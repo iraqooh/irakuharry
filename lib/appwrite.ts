@@ -10,13 +10,19 @@ export type MessagePayload = {
   message: string;
 };
 
+export interface MessageRow extends Models.Row {
+  name: string;
+  email: string;
+  message: string;
+}
+
 const client = new Client()
   .setEndpoint("https://cloud.appwrite.io/v1")
   .setProject(process.env.NEXT_PUBLIC_APPWRITE_PROJECT_ID as string);
 
 const tablesDB: TablesDB = new TablesDB(client);
 
-export async function sendMessage(data: MessagePayload): Promise<Models.Row> {
+export async function sendMessage(data: MessagePayload): Promise<MessageRow> {
   return await tablesDB.createRow({
       databaseId: APPWRITE_DB,
       tableId: MESSAGES_TABLE,
@@ -25,6 +31,6 @@ export async function sendMessage(data: MessagePayload): Promise<Models.Row> {
         name: data.name,
         email: data.email,
         message: data.message,
-      }
+      } as unknown as MessageRow
     });
 }
