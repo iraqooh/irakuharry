@@ -1,4 +1,3 @@
-// components/Projects.tsx
 import { projects } from "@/lib/projects";
 import ProjectCard from "./ProjectCard";
 import { Project } from "@/lib/types";

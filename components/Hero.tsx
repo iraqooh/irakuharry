@@ -1,4 +1,3 @@
-// components/Hero.tsx
 import Image from "next/image";
 import ThemeToggle from "./ThemeToggle";
 
@@ -17,7 +16,7 @@ export default function Hero() {
             unoptimized
           />
         </div>
-        <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-linear-to-r from-indigo-600 to-purple-600 dark:from-indigo-400 dark:to-purple-400 bg-clip-text text-transparent">
+        <h1 className="text-5xl md:text-7xl font-bold pb-4 mb-4 bg-linear-to-r from-indigo-600 to-purple-600 dark:from-indigo-400 dark:to-purple-400 bg-clip-text text-transparent">
           Hey, I&apos;m Harry
         </h1>
         <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8">

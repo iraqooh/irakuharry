@@ -1,4 +1,3 @@
-// app/api/contact/route.ts
 import { sendMessage } from "@/lib/appwrite";
 import { NextResponse } from "next/server";
 

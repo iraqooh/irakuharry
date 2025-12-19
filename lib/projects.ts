@@ -10,5 +10,4 @@ export const projects: Project[] = [
     live: "https://pulke-ent.vercel.app/",
     github: "https://github.com/iraqooh/pulke_ent",
   },
-  // Add more projects...
 ];
