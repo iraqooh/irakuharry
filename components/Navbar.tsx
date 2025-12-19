@@ -16,7 +16,7 @@ export default function Navbar() {
 
         {/* Desktop Nav */}
         <div className="hidden md:flex gap-8">
-          {["About", "Projects", "Blog", "Contact"].map((item) => (
+          {["About", "Projects", "Blogs", "Contact"].map((item) => (
             <Link
               key={item}
               href={`#${item.toLowerCase()}`}
@@ -41,7 +41,7 @@ export default function Navbar() {
       {mobileMenu && (
         <div className="md:hidden bg-white dark:bg-gray-950 border-t border-gray-200 dark:border-gray-800">
           <div className="flex flex-col px-6 py-4 gap-4">
-            {["About", "Projects", "Blog", "Contact"].map((item) => (
+            {["About", "Projects", "Blogs", "Contact"].map((item) => (
               <Link
                 key={item}
                 href={`#${item.toLowerCase()}`}

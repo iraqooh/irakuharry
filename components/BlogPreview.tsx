@@ -6,7 +6,7 @@ export default async function BlogPreview() {
   const latestPosts = await getLatestHashnodePosts(3);
 
   return (
-    <section className="py-20 px-6 bg-gray-50 dark:bg-gray-900">
+    <section id="blogs" className="py-20 px-6 bg-gray-50 dark:bg-gray-900">
       <div className="max-w-6xl mx-auto">
         <div className="flex justify-between items-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold">Latest Writing</h2>
